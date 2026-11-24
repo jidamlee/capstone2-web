@@ -1,0 +1,581 @@
+{
+  "version": "hm_bottoms_style_v1",
+  "status": "unvalidated_project_style_hypotheses",
+  "weight_policy": {
+    "range": [
+      -2,
+      2
+    ],
+    "observed_multiplier": 1,
+    "provisional_multiplier": 0.65,
+    "learned": false,
+    "score_is_probability": false
+  },
+  "sources": {
+    "anotheraddress_pants": {
+      "title": "AnotherADdress: 골격 유형별 팬츠 선택 안내",
+      "url": "https://www.anotheraddress.jp/topics/756/detail",
+      "type": "retailer_professional_guidance_not_peer_reviewed"
+    },
+    "anotheraddress_skirts": {
+      "title": "AnotherADdress: 골격 유형별 스커트 선택 안내",
+      "url": "https://www.anotheraddress.jp/topics/645/detail",
+      "type": "retailer_professional_guidance_not_peer_reviewed"
+    }
+  },
+  "limitations": [
+    "관계와 가중치는 전문가 및 사용자 평가 전의 프로젝트 가설이다.",
+    "소재 이름만으로 두께나 촉감을 추정하지 않는다.",
+    "허리 높이 등은 다른 안내와 상충할 수 있어 하드 제외에 사용하지 않는다.",
+    "부츠컷·배럴·기본 허리 위치 등의 보완 규칙은 안내의 개념을 확장한 가설이다."
+  ],
+  "rules": [
+    {
+      "id": "bottom_straight_leg",
+      "body": "straight",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "straight"
+        }
+      ],
+      "weight": 2,
+      "reason": "직선적인 바지 실루엣",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_straight_tapered",
+      "body": "straight",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "tapered"
+        }
+      ],
+      "weight": 1.2,
+      "reason": "정돈된 테이퍼드 라인",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_straight_crease",
+      "body": "straight",
+      "all": [
+        {
+          "field": "detail_style",
+          "value": "center_crease"
+        }
+      ],
+      "weight": 1.5,
+      "reason": "센터 프레스의 세로선",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_straight_regular",
+      "body": "straight",
+      "all": [
+        {
+          "field": "fit",
+          "value": "regular"
+        }
+      ],
+      "weight": 0.7,
+      "reason": "과도하게 붙지 않는 기본 핏",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_straight_mid",
+      "body": "straight",
+      "all": [
+        {
+          "field": "rise",
+          "value": "mid"
+        }
+      ],
+      "weight": 0.7,
+      "reason": "기본 허리 위치의 보완 가설",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_straight_high_caution",
+      "body": "straight",
+      "all": [
+        {
+          "field": "rise",
+          "value": "high"
+        }
+      ],
+      "weight": -0.7,
+      "reason": "높은 허리 위치에 대한 약한 주의 단서",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_high",
+      "body": "wave",
+      "all": [
+        {
+          "field": "rise",
+          "value": "high"
+        }
+      ],
+      "weight": 2,
+      "reason": "허리 위치를 높이는 디자인",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_slim",
+      "body": "wave",
+      "all": [
+        {
+          "field": "fit",
+          "value": "slim"
+        }
+      ],
+      "weight": 1,
+      "reason": "슬림한 팬츠 핏",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_skinny",
+      "body": "wave",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "skinny"
+        }
+      ],
+      "weight": 1.5,
+      "reason": "몸의 선을 따르는 스키니 라인",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_tapered",
+      "body": "wave",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "tapered"
+        }
+      ],
+      "weight": 1.2,
+      "reason": "정돈된 테이퍼드 밑단",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_flared",
+      "body": "wave",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "flared"
+        }
+      ],
+      "weight": 1,
+      "reason": "밑단으로 퍼지는 팬츠 라인",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_bootcut",
+      "body": "wave",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "bootcut"
+        }
+      ],
+      "weight": 0.8,
+      "reason": "플레어 계열 부츠컷의 보완 가설",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_low_caution",
+      "body": "wave",
+      "all": [
+        {
+          "field": "rise",
+          "value": "low"
+        }
+      ],
+      "weight": -0.8,
+      "reason": "낮은 허리 위치에 대한 약한 주의 단서",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_wide",
+      "body": "natural",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "wide"
+        }
+      ],
+      "weight": 2,
+      "reason": "여유 있는 와이드 라인",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_straight",
+      "body": "natural",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "straight"
+        }
+      ],
+      "weight": 1,
+      "reason": "직선적인 캐주얼 팬츠",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_loose",
+      "body": "natural",
+      "all": [
+        {
+          "field": "fit",
+          "value": "loose"
+        }
+      ],
+      "weight": 1.4,
+      "reason": "여유 있는 실루엣",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_relaxed",
+      "body": "natural",
+      "all": [
+        {
+          "field": "fit",
+          "value": "relaxed"
+        }
+      ],
+      "weight": 1.4,
+      "reason": "릴렉스드 실루엣",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_baggy",
+      "body": "natural",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "baggy"
+        }
+      ],
+      "weight": 1.5,
+      "reason": "여유 있는 배기 라인",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_barrel",
+      "body": "natural",
+      "all": [
+        {
+          "field": "leg_shape",
+          "value": "barrel"
+        }
+      ],
+      "weight": 1,
+      "reason": "배럴 라인의 보완 가설",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_cargo",
+      "body": "natural",
+      "all": [
+        {
+          "field": "detail_style",
+          "value": "cargo"
+        }
+      ],
+      "weight": 1.1,
+      "reason": "카고 계열의 캐주얼 디테일",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_denim",
+      "body": "natural",
+      "all": [
+        {
+          "field": "fabric",
+          "value": "denim"
+        }
+      ],
+      "weight": 0.4,
+      "reason": "데님 소재의 약한 보완 단서",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_linen",
+      "body": "natural",
+      "all": [
+        {
+          "field": "fabric",
+          "value": "linen"
+        }
+      ],
+      "weight": 0.4,
+      "reason": "린넨 소재의 약한 보완 단서",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_fitted_caution",
+      "body": "natural",
+      "all": [
+        {
+          "field": "fit",
+          "value": "fitted"
+        }
+      ],
+      "weight": -0.8,
+      "reason": "밀착 핏에 대한 약한 주의 단서",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_straight_pencil",
+      "body": "straight",
+      "all": [
+        {
+          "field": "skirt_shape",
+          "value": "pencil"
+        }
+      ],
+      "weight": 1.8,
+      "reason": "수직적인 펜슬 스커트 라인",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_straight_skirt",
+      "body": "straight",
+      "all": [
+        {
+          "field": "skirt_shape",
+          "value": "straight"
+        }
+      ],
+      "weight": 1.6,
+      "reason": "직선적인 스커트 라인",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_wave_a_line",
+      "body": "wave",
+      "all": [
+        {
+          "field": "skirt_shape",
+          "value": "a_line"
+        }
+      ],
+      "weight": 1.8,
+      "reason": "밑단으로 퍼지는 A라인",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_wave_flare_skirt",
+      "body": "wave",
+      "all": [
+        {
+          "field": "skirt_shape",
+          "value": "flared"
+        }
+      ],
+      "weight": 1.5,
+      "reason": "퍼지는 스커트 실루엣",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_wave_mermaid",
+      "body": "wave",
+      "all": [
+        {
+          "field": "skirt_shape",
+          "value": "mermaid"
+        }
+      ],
+      "weight": 1.2,
+      "reason": "머메이드 스커트 라인",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_natural_straight_skirt",
+      "body": "natural",
+      "all": [
+        {
+          "field": "skirt_shape",
+          "value": "straight"
+        }
+      ],
+      "weight": 0.8,
+      "reason": "여유를 함께 확인하는 직선 스커트",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_straight_pants_long",
+      "body": "straight",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "pants"
+        },
+        {
+          "field": "garment_length",
+          "value": "long"
+        }
+      ],
+      "weight": 1,
+      "reason": "팬츠의 풀렝스 기장",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_straight_pants_ankle",
+      "body": "straight",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "pants"
+        },
+        {
+          "field": "garment_length",
+          "value": "ankle"
+        }
+      ],
+      "weight": 0.8,
+      "reason": "팬츠의 발목 기장",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_pants_crop",
+      "body": "wave",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "pants"
+        },
+        {
+          "field": "garment_length",
+          "value": "cropped"
+        }
+      ],
+      "weight": 1,
+      "reason": "팬츠의 크롭 기장",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_pants_ankle",
+      "body": "wave",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "pants"
+        },
+        {
+          "field": "garment_length",
+          "value": "ankle"
+        }
+      ],
+      "weight": 0.8,
+      "reason": "팬츠의 발목 기장",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_natural_pants_long",
+      "body": "natural",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "pants"
+        },
+        {
+          "field": "garment_length",
+          "value": "long"
+        }
+      ],
+      "weight": 0.8,
+      "reason": "팬츠의 풀렝스 기장",
+      "source": "anotheraddress_pants"
+    },
+    {
+      "id": "bottom_wave_pleated_skirt",
+      "body": "wave",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "skirt"
+        },
+        {
+          "field": "detail_style",
+          "value": "pleated"
+        }
+      ],
+      "weight": 1.1,
+      "reason": "플리츠 스커트의 디테일",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_wave_mini_skirt",
+      "body": "wave",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "skirt"
+        },
+        {
+          "field": "garment_length",
+          "value": "mini"
+        }
+      ],
+      "weight": 0.8,
+      "reason": "스커트의 미니 기장",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_natural_maxi_skirt",
+      "body": "natural",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "skirt"
+        },
+        {
+          "field": "garment_length",
+          "value": "maxi"
+        }
+      ],
+      "weight": 1.2,
+      "reason": "스커트의 맥시 기장",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_natural_long_skirt",
+      "body": "natural",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "skirt"
+        },
+        {
+          "field": "garment_length",
+          "value": "long"
+        }
+      ],
+      "weight": 1.2,
+      "reason": "스커트의 긴 기장",
+      "source": "anotheraddress_skirts"
+    },
+    {
+      "id": "bottom_straight_maxi_skirt",
+      "body": "straight",
+      "all": [
+        {
+          "field": "garment_type",
+          "value": "skirt"
+        },
+        {
+          "field": "garment_length",
+          "value": "maxi"
+        }
+      ],
+      "weight": 0.7,
+      "reason": "수직선과 함께 비교하는 맥시 기장",
+      "source": "anotheraddress_skirts"
+    }
+  ]
+}

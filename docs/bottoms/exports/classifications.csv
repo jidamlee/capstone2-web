@@ -1,0 +1,501 @@
+﻿product_id,name,closest_body,straight_score,wave_score,natural_score,basis
+hm:0932722001,코튼 블렌드 스웨트 팬츠,straight,2.4,0.0,0.8,attribute_supported
+hm:0941666082,하이웨이스트 앵클 맘 진 슬림핏,wave,2.1,3.8,1.4,attribute_supported
+hm:1035873001,플레어 레깅스,wave,-0.7,3.0,0.0,attribute_supported
+hm:1045459063,하이웨이스트 와이드 진,natural,0.0,2.0,2.4,close_alternatives
+hm:1152096018,스웨트 쇼츠,straight,1.4,0.0,0.0,attribute_supported
+hm:1184662068,미디 스커트,wave,0.7,2.5,1.2,attribute_supported
+hm:1193602019,스웨트 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1209534021,하이웨이스트 스트레이트 진,straight,2.0,2.0,1.4,close_alternatives
+hm:1229229025,코튼 블렌드 팬츠,natural,1.0,-0.8,4.2,attribute_supported
+hm:1237735001,스포츠 레깅스 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1255283001,요가 레깅스 SoftMove™ Lycra®,wave,-0.7,2.0,2.0,close_alternatives
+hm:1256464001,울 스키 베이스 레이어 레깅스,wave,-0.7,2.0,0.0,attribute_supported
+hm:1281666001,시어서커 드로스트링 팬츠,natural,2.4,0.0,2.8,close_alternatives
+hm:1286214001,브레이드 트리밍 데님 스커트,wave,0.0,3.8,0.4,attribute_supported
+hm:1290715004,시가렛 팬츠,straight,2.6,1.2,0.0,attribute_supported
+hm:1291296001,스포츠 사이클링 쇼츠 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1293467003,테일러드 팬츠,natural,1.0,2.0,2.8,attribute_supported
+hm:1295947002,시가렛 팬츠,wave,1.9,2.2,0.0,close_alternatives
+hm:1296717018,리브드 드로스트링 팬츠,natural,1.7,0.0,2.2,close_alternatives
+hm:1297135020,부츠컷 팬츠,wave,0.3,3.8,0.8,attribute_supported
+hm:1299682028,폴드오버 코튼 팬츠,straight,4.4,1.0,1.8,attribute_supported
+hm:1303187005,워밍 스포츠 레깅스 Fleece SoftMove™,wave,-0.7,2.0,2.0,close_alternatives
+hm:1303481009,Four-way Stretch 플레어 팬츠,wave,1.7,2.0,0.8,close_alternatives
+hm:1303482001,Four-way Stretch 와이드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1308273011,레귤러 웨이스트 와이드 진,natural,2.4,0.0,3.2,attribute_supported
+hm:1310193001,포켓 디테일 스포츠 레깅스 SoftMove™,wave,-0.7,2.0,2.0,close_alternatives
+hm:1315211005,랩 스코트,wave,0.7,1.0,0.0,close_alternatives
+hm:1315511001,스포츠 레깅스 DryMove™ Seamless,wave,-0.7,2.0,2.0,close_alternatives
+hm:1315513001,하이웨이스트 레깅스 SculptMove™,wave,-0.7,2.0,0.0,attribute_supported
+hm:1317131001,레깅스 SculptMove™,wave,-0.7,2.0,0.0,attribute_supported
+hm:1317132001,플레어 스포츠 레깅스 SculptMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1317503001,포켓 디테일 레이어드 스포츠 쇼츠,straight,1.4,0.0,0.0,attribute_supported
+hm:1317534001,레이스 트리밍 코튼 트윌 쇼츠,wave,-0.7,2.0,1.4,close_alternatives
+hm:1318398001,플레어 요가 레깅스 SoftMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1318542005,배럴 레그 크링클 팬츠,natural,-0.7,2.0,2.4,close_alternatives
+hm:1318831003,와이드 테일러드 팬츠,natural,1.0,2.0,2.8,attribute_supported
+hm:1320139002,테일러드 울 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1321672002,쿨링 와이드 팬츠 릴랙스핏,natural,1.7,0.0,4.2,attribute_supported
+hm:1322484004,테일러드 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1322702001,리넨 블렌드 테일러드 쇼츠,natural,0.7,0.0,1.8,attribute_supported
+hm:1322783001,지퍼헴 레깅스,straight,1.4,0.0,0.0,attribute_supported
+hm:1322986001,엠브로이더리 리넨 블렌드 팬츠,natural,2.4,0.0,3.2,attribute_supported
+hm:1323132001,리넨 블렌드 테일러드 팬츠,natural,0.3,2.0,4.6,attribute_supported
+hm:1323692001,A라인 데님 스커트,wave,0.0,4.9,0.4,attribute_supported
+hm:1324167005,플리츠 디테일 드로스트링 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1327944004,어시메트릭 데님 스커트,straight,1.4,0.0,0.4,attribute_supported
+hm:1328239003,리넨 블렌드 팬츠,straight,3.0,2.0,2.2,attribute_supported
+hm:1328713003,와이드 테일러드 팬츠,natural,0.0,0.0,3.4,attribute_supported
+hm:1329950001,드레이프 저지 스커트,straight,1.4,0.0,0.0,attribute_supported
+hm:1331242001,새틴 맥시 스커트,wave,0.0,3.0,1.2,attribute_supported
+hm:1331278001,쇼트 러닝 쇼츠 DryMove™,straight,1.4,0.0,0.0,attribute_supported
+hm:1332376003,Easy Care 리넨 블렌드 와이드 테일러드 팬츠,natural,1.0,2.0,3.2,attribute_supported
+hm:1332879003,로라이즈 배기 진,natural,1.0,-0.8,4.1,attribute_supported
+hm:1332883001,스키니핏 하이웨이스트 앵클 진,wave,0.1,4.3,0.4,attribute_supported
+hm:1333423001,배럴 레그 레인 팬츠 StormMove™,straight,2.4,0.0,1.8,close_alternatives
+hm:1333644001,타이 디테일 코튼 스커트,wave,1.4,1.8,0.0,close_alternatives
+hm:1333756001,시폰 티어드 스커트,wave,0.0,2.0,1.2,attribute_supported
+hm:1334178002,텍스처 저지 미디 스커트,wave,0.0,3.8,0.0,attribute_supported
+hm:1334196001,셔링 크레이프 스커트,straight,1.4,0.0,1.2,close_alternatives
+hm:1334518001,티어드 랩 스커트,wave,0.0,2.0,1.2,attribute_supported
+hm:1335256003,스트레이트 트윌 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1336137001,데님 풀온 팬츠,straight,4.4,0.0,2.2,attribute_supported
+hm:1336299001,데님 쇼츠,straight,1.4,0.0,0.4,attribute_supported
+hm:1336306002,데님 풀온 쇼츠,natural,0.7,0.0,1.8,attribute_supported
+hm:1336389001,테일러드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1336590001,드로스트링 디테일 모슬린 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1336592005,새틴 플레어 팬츠,straight,2.4,0.8,0.8,attribute_supported
+hm:1336825001,플리츠 벨티드 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1336845002,하이웨이스트 스트레이트 진,straight,3.0,2.0,2.2,attribute_supported
+hm:1336846001,비스코스 블렌드 크링클 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1337538002,레귤러 웨이스트 배럴 진,straight,1.4,0.0,1.4,close_alternatives
+hm:1337540001,레귤러 웨이스트 배럴 진,straight,3.6,1.2,2.2,attribute_supported
+hm:1337544003,데님 드로스트링 팬츠,natural,2.4,0.0,3.2,attribute_supported
+hm:1337558002,리넨 블렌드 배럴 팬츠,natural,-0.7,2.0,2.8,attribute_supported
+hm:1338363002,리넨 블렌드 배럴 팬츠,natural,0.3,2.0,3.6,attribute_supported
+hm:1338366001,타이 디테일 벌룬 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1338506001,스켈럽트 디테일 스트레이트 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1338942001,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1338945001,9부 트윌 팬츠,straight,2.7,0.0,2.4,close_alternatives
+hm:1339028001,프린트 풀온 쇼츠,wave,-0.7,2.0,1.4,close_alternatives
+hm:1340013001,드로스트링 디테일 풀온 팬츠,wave,0.0,2.0,1.5,close_alternatives
+hm:1340398002,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1340454004,벨티드 코튼 쇼츠,wave,-0.7,2.0,1.4,close_alternatives
+hm:1340654001,리넨 블렌드 벌룬 팬츠,natural,0.3,2.0,4.1,attribute_supported
+hm:1340919002,드로스트링 디테일 풀온 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1340947001,리넨 블렌드 테일러드 팬츠,natural,1.0,2.0,3.2,attribute_supported
+hm:1340949001,버클 디테일 스코트,wave,0.0,3.5,0.0,attribute_supported
+hm:1341024001,리넨 블렌드 드로스트링 쇼츠,wave,-0.7,2.0,1.8,close_alternatives
+hm:1341129004,크링클 저지 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1341607001,비즈 디테일 스트레이트 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1341917001,스포츠 바이커 쇼츠 SculptMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1341944002,버뮤다 쇼츠,wave,0.0,2.0,2.0,close_alternatives
+hm:1342561001,셔링 웨이스트 스커트,wave,-0.7,3.0,1.2,attribute_supported
+hm:1342781003,테일러드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1342930002,드로스트링 네트 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1343061001,타이 디테일 벌룬 팬츠,straight,2.4,0.0,2.3,close_alternatives
+hm:1343397002,벨티드 스트레이트 팬츠,natural,1.3,2.0,2.4,close_alternatives
+hm:1343788001,시퀸 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1343858001,드레이프 풀온 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1343880004,플리츠 디테일 벌룬 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1343910001,비스코스 블렌드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1343917001,하이웨이스트 배럴 진,natural,0.3,2.0,3.6,attribute_supported
+hm:1344074005,리넨 블렌드 폴드오버 팬츠,natural,1.7,0.0,3.6,attribute_supported
+hm:1344297001,테일러드 쇼츠,straight,1.4,0.0,0.0,attribute_supported
+hm:1344784001,텍스처 풀온 팬츠,natural,2.3,2.0,3.2,attribute_supported
+hm:1345138001,미니 스커트,straight,1.4,0.8,0.0,close_alternatives
+hm:1345513001,새틴 슬립 스커트,wave,-0.7,2.0,-0.8,attribute_supported
+hm:1345515001,버블 헴 큐프라 블렌드 스커트,wave,0.0,2.8,0.0,attribute_supported
+hm:1346024002,벨티드 비스코스 블렌드 쇼츠,wave,-0.7,2.0,1.4,close_alternatives
+hm:1346167001,풀온 카고 팬츠,natural,1.7,0.0,3.3,attribute_supported
+hm:1346287003,레이스 트리밍 새틴 쇼츠,natural,-0.7,2.0,3.4,attribute_supported
+hm:1346364001,벨티드 리넨 블렌드 팬츠,natural,0.3,2.0,4.6,attribute_supported
+hm:1346400003,비스코스 블렌드 배럴 팬츠,natural,0.3,2.0,3.7,attribute_supported
+hm:1346409001,테일러드 리넨 팬츠,straight,3.0,2.0,2.2,attribute_supported
+hm:1346423002,코티드 배기 팬츠,straight,2.4,0.0,2.3,close_alternatives
+hm:1346426001,버튼 디테일 트윌 큐롯 팬츠,natural,1.4,0.0,2.0,close_alternatives
+hm:1346483002,타이 디테일 행커치프 스커트,natural,0.0,0.8,1.4,close_alternatives
+hm:1346654001,하이웨이스트 맘 진 슬림핏,wave,3.5,4.2,2.2,attribute_supported
+hm:1346683001,플리츠 와이드 큐롯 팬츠,natural,-0.7,2.0,3.4,attribute_supported
+hm:1346684001,벨티드 배럴 팬츠,natural,-0.7,2.0,2.4,close_alternatives
+hm:1346891001,레귤러 웨이스트 슬림 스트레이트 진,straight,3.7,1.0,2.2,attribute_supported
+hm:1346987001,브로드리 앙글레즈 리넨 블렌드 쇼츠,wave,-0.7,2.0,1.8,close_alternatives
+hm:1346992003,크링클 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1346999001,플리츠 와이드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1347076002,배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1347078001,벨티드 트윌 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1347081004,트윌 풀온 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1347083001,테일러드 트윌 팬츠,wave,1.0,3.0,0.8,attribute_supported
+hm:1347117001,코티드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1347145001,와이드 테일러드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1347149001,벨티드 벌룬 레그 팬츠,straight,2.4,0.0,2.3,close_alternatives
+hm:1347198003,레귤러 웨이스트 스트레이트 진,straight,4.4,0.0,2.2,attribute_supported
+hm:1347201005,레귤러 웨이스트 배기 배럴 진,natural,1.4,0.0,2.9,attribute_supported
+hm:1347514001,벨티드 버뮤다 쇼츠,wave,0.0,3.5,0.0,attribute_supported
+hm:1347515001,테일러드 팬츠,natural,2.3,2.0,3.2,attribute_supported
+hm:1347595001,드로스트링 새틴 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1347674004,테일러드 트윌 팬츠,wave,1.0,2.0,0.8,attribute_supported
+hm:1348142001,레귤러 웨이스트 배럴 진,straight,2.4,0.0,2.2,close_alternatives
+hm:1348170001,스트랩 디테일 팬츠,natural,0.3,2.0,3.7,attribute_supported
+hm:1348172002,테일러드 배럴 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1348173001,코튼 배럴 팬츠,wave,1.0,2.0,1.8,close_alternatives
+hm:1348174001,스트레이트 테일러드 팬츠,natural,2.3,2.0,3.2,attribute_supported
+hm:1348175001,벨티드 테일러드 팬츠,wave,1.5,3.2,2.2,attribute_supported
+hm:1348177001,테일러드 트윌 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1348415001,하이웨이스트 스커트,wave,0.0,2.0,0.0,attribute_supported
+hm:1348546001,나일론 스포츠 트랙 팬츠 릴랙스핏,natural,1.7,0.0,2.2,close_alternatives
+hm:1348970002,크링클 와이드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1348974003,와이드 풀온 팬츠,natural,2.4,0.0,2.8,close_alternatives
+hm:1348996009,하이웨이스트 배럴 진,natural,1.0,2.0,2.2,close_alternatives
+hm:1349039001,테일러드 버뮤다 쇼츠,straight,1.4,0.0,0.0,attribute_supported
+hm:1349141001,스카프 디테일 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1349219001,스키 팬츠 ThermoMove™,wave,0.3,4.0,0.8,attribute_supported
+hm:1349231001,스키 빕 팬츠 ThermoMove™,wave,0.3,4.0,0.8,attribute_supported
+hm:1349243001,벨티드 카고 팬츠,natural,1.7,0.0,4.3,attribute_supported
+hm:1349247002,트위스트 디테일 저지 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1349263001,배럴 스키 팬츠 StormMove™,natural,0.0,0.0,1.6,attribute_supported
+hm:1349315001,버클 디테일 벌룬 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1349372002,코티드 랩스커트,wave,0.0,2.8,0.0,attribute_supported
+hm:1349388001,스트레이트 팬츠 Four-way Stretch,straight,4.4,0.0,1.8,attribute_supported
+hm:1349466001,리브니트 울 블렌드 베이스 레이어 레깅스,wave,-0.7,2.0,0.0,attribute_supported
+hm:1349593001,스트레이트 테일러드 울 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1349628001,레더 미니 스커트,straight,3.2,0.0,0.0,attribute_supported
+hm:1349629001,엠브로이더리 맥시 스커트,straight,1.4,0.0,1.2,close_alternatives
+hm:1349636001,드로스트링 텍스처 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1349916001,리넨 블렌드 스카프 디테일 팬츠,natural,0.3,2.0,4.6,attribute_supported
+hm:1350291005,코듀로이 배럴 팬츠,wave,2.2,3.2,1.8,attribute_supported
+hm:1350295002,벨티드 페이퍼백 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1350351001,테일러드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1350371001,타이 디테일 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1350505001,리넨 블렌드 와이드 팬츠,natural,2.4,0.0,3.2,attribute_supported
+hm:1350509001,모달 블렌드 플레어 팬츠,wave,0.3,4.0,0.8,attribute_supported
+hm:1350948001,벨티드 배럴 팬츠,natural,-0.7,2.0,2.4,close_alternatives
+hm:1351023001,폴드오버 저지 팬츠,straight,3.7,1.0,1.8,attribute_supported
+hm:1351025002,벨루어 조거 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1351028001,루즈핏 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1351047001,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1351048001,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1351118002,레이스 트리밍 팬츠,natural,1.4,0.0,2.0,close_alternatives
+hm:1351123001,벨티드 카고 팬츠,natural,1.0,2.0,2.9,attribute_supported
+hm:1351286001,메리노 울 파인니트 팬츠,natural,2.4,0.0,2.8,close_alternatives
+hm:1351350001,리넨 블렌드 플레어 팬츠,natural,1.0,1.2,1.2,close_alternatives
+hm:1351481001,크리스 레그 테일러드 팬츠,straight,1.0,1.0,0.8,close_alternatives
+hm:1351489001,테일러드 스커트 레이어 팬츠,wave,1.0,3.5,2.0,attribute_supported
+hm:1351585003,드로스트링 와이드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1351599001,텍스처 자카드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1351617001,풀온 팬츠 루즈핏,straight,3.7,0.0,3.2,close_alternatives
+hm:1351670001,부클레 니트 풀온 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1351773002,시가렛 팬츠,straight,1.7,1.0,0.8,attribute_supported
+hm:1351823001,플리츠 배럴 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1351827002,벨티드 스트레이트 팬츠,straight,3.7,1.0,1.8,attribute_supported
+hm:1352227001,크리스 프런트 레깅스,straight,0.7,0.0,-0.8,attribute_supported
+hm:1352334001,벨트 디테일 데님 팬츠,straight,3.0,2.0,2.2,attribute_supported
+hm:1352446001,워밍 플레어 레깅스 Fleece SoftMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1352650001,레귤러 웨이스트 와이드 카고 진,natural,1.7,0.0,5.7,attribute_supported
+hm:1352724001,와이드 테일러드 팬츠,natural,1.7,-0.8,2.8,attribute_supported
+hm:1352816001,저지 풀온 팬츠,straight,1.7,1.0,0.8,attribute_supported
+hm:1352844002,테일러드 트윌 팬츠,wave,1.0,2.0,0.8,attribute_supported
+hm:1353025001,크리스 레그 플레어 레깅스,wave,-0.7,4.0,0.0,attribute_supported
+hm:1353032001,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1353052004,레귤러 웨이스트 앵클 배럴 진,straight,2.2,0.8,1.4,attribute_supported
+hm:1353168002,플리츠 디테일 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1353223001,벨티드 테일러드 팬츠,natural,2.3,2.0,3.2,attribute_supported
+hm:1353375002,배럴 조거 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1353396001,플레어 팬츠,wave,0.3,4.0,0.8,attribute_supported
+hm:1353548001,비스코스 블렌드 트윌 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1353586001,테일러드 카프리 팬츠,wave,0.0,2.0,0.0,attribute_supported
+hm:1353841005,플레어 요가 레깅스 SoftMove™,wave,0.7,1.0,0.0,close_alternatives
+hm:1353964001,탭 디테일 플리츠 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1354041001,비스코스 블렌드 플리츠 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1354788001,데님 미니 스코트,straight,1.4,0.0,0.4,attribute_supported
+hm:1354822001,배럴 테일러드 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1354912001,코튼 코듀로이 배럴 팬츠,wave,1.0,2.0,1.8,close_alternatives
+hm:1354938001,벌룬 레그 코티드 팬츠,straight,2.4,0.0,2.3,close_alternatives
+hm:1355152001,테일러드 울 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1355199001,폰테 디 로마 풀온 팬츠,wave,2.3,3.0,1.8,attribute_supported
+hm:1355222001,스쿠버 스포츠 조거 팬츠,natural,1.7,0.0,2.2,close_alternatives
+hm:1355228001,벨티드 배럴 팬츠,natural,-0.7,2.0,2.4,close_alternatives
+hm:1355264001,스포츠 레깅스 SculptMove™,wave,-0.7,2.0,0.0,attribute_supported
+hm:1355293001,레귤러 웨이스트 스트레이트 진,straight,4.4,0.0,2.2,attribute_supported
+hm:1355313001,벨티드 테일러드 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1355317001,벨티드 테일러드 팬츠,straight,1.7,1.0,0.8,attribute_supported
+hm:1355325001,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1355414001,글로시 트윌 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1355595005,타이 디테일 플레어 팬츠,wave,1.7,2.0,0.8,close_alternatives
+hm:1355617001,드로스트링 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1355634001,미니 스커트,straight,1.4,0.8,0.0,close_alternatives
+hm:1355746005,카고 팬츠 루즈핏,natural,1.5,3.2,3.3,close_alternatives
+hm:1355895001,하이웨이스트 스트레이트 진,straight,3.0,2.0,2.2,attribute_supported
+hm:1356321001,풀온 스쿠버 팬츠,natural,2.4,0.0,2.8,close_alternatives
+hm:1356371001,와이드 스포츠 팬츠 SoftMove™,natural,2.4,0.0,2.8,close_alternatives
+hm:1356411002,리브드 벨루어 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1356511001,울 블렌드 테일러드 팬츠,natural,2.4,0.0,2.8,close_alternatives
+hm:1356514001,새틴 풀온 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1356516001,스포츠 핫팬츠 SculptMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1356555001,러닝 레깅스 SculptMove™,wave,-0.7,2.0,2.0,close_alternatives
+hm:1356600001,플리츠 배럴 팬츠,wave,1.0,2.0,1.8,close_alternatives
+hm:1356635001,트윌 풀온 팬츠,natural,0.3,2.0,2.2,close_alternatives
+hm:1356994001,배럴 팬츠,wave,1.0,2.0,1.8,close_alternatives
+hm:1357003001,스트레이트 트윌 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1357039002,코튼 코듀로이 팬츠,wave,2.3,3.0,1.8,attribute_supported
+hm:1357173001,플리츠 배기 팬츠,natural,1.7,0.0,5.7,attribute_supported
+hm:1357191001,와이드 카고 팬츠,natural,1.7,0.0,5.3,attribute_supported
+hm:1357265001,울 블렌드 배럴 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1357269001,울 블렌드 테일러드 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1357319001,벨루어 스터럽 팬츠,straight,1.7,1.0,0.8,attribute_supported
+hm:1357328001,테일러드 울 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1357360001,새틴 플리츠 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1357364001,테일러드 부츠컷 팬츠,wave,0.7,1.8,0.0,attribute_supported
+hm:1357406001,랩 디테일 풀온 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1357478001,테일러드 버뮤다 쇼츠,straight,1.4,0.0,0.0,attribute_supported
+hm:1357530001,울 블렌드 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1357547001,테일러드 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1357550001,레이스 인셋 리오셀 스커트,natural,1.4,1.8,2.6,attribute_supported
+hm:1357572001,스크런치 핫팬츠 DryMove™ Seamless,wave,-0.7,3.0,2.0,attribute_supported
+hm:1357712002,하이웨이스트 배럴 진,wave,0.0,2.0,1.4,close_alternatives
+hm:1357713002,레귤러 웨이스트 슬림 진,straight,1.7,1.0,1.2,close_alternatives
+hm:1357758001,9부 테일러드 팬츠,wave,1.3,3.0,1.0,attribute_supported
+hm:1357826001,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1358189001,코티드 스트레이트 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1358362001,하이웨이스트 배럴 진,natural,1.0,2.0,2.2,close_alternatives
+hm:1358407001,랩 디테일 모달 블렌드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1358565001,레귤러 웨이스트 스키니 진,straight,1.7,1.5,1.2,close_alternatives
+hm:1358831002,풀온 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1358851001,워밍 러닝 레깅스 SculptMove™,wave,-0.7,2.0,2.0,close_alternatives
+hm:1359075002,하이웨이스트 슬림 스트레이트 앵클 진,wave,2.1,3.8,1.4,attribute_supported
+hm:1359133001,새틴 카고 팬츠,natural,0.3,2.0,5.3,attribute_supported
+hm:1359139001,트윌 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1359455001,코튼 조거 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1359521001,벨티드 테일러드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1359527001,레귤러 웨이스트 스트레이트 진,straight,4.4,0.0,2.2,attribute_supported
+hm:1359532001,폰테 디 로마 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1359588001,테일러드 울 팬츠,straight,2.9,0.4,0.8,attribute_supported
+hm:1359605001,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1359667001,랩 디테일 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1359668002,배럴 팬츠,natural,1.7,0.0,3.6,attribute_supported
+hm:1359764001,스트레이트 스포츠 팬츠 SculptMove™,wave,0.3,4.0,0.8,attribute_supported
+hm:1359932002,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1360064001,코튼 트윌 배기 팬츠,straight,2.4,0.0,2.3,close_alternatives
+hm:1360114004,배럴 조거 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1360143001,비스코스 팬츠 루즈핏,straight,3.7,0.0,3.2,close_alternatives
+hm:1360216001,레이스 트리밍 새틴 스커트,wave,1.4,1.5,0.0,close_alternatives
+hm:1360287001,플라운스 디테일 테일러드 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1360293001,폴드오버 카고 팬츠,natural,1.7,0.0,4.8,attribute_supported
+hm:1360416001,울 블렌드 플리츠 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1360439001,비스코스 블렌드 배럴 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1360618001,레귤러 웨이스트 와이드 배기 진,natural,2.4,0.0,4.7,attribute_supported
+hm:1360798001,레귤러 웨이스트 배기 진,straight,4.4,0.0,3.7,attribute_supported
+hm:1360933001,디자인 레이스 스커트,straight,3.2,0.0,0.0,attribute_supported
+hm:1361215001,크리스 레그 팬츠,straight,3.7,0.0,1.8,attribute_supported
+hm:1361653001,플로킹 데님 진,straight,4.4,0.0,2.2,attribute_supported
+hm:1361738001,벨티드 트윌 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1361953001,슬릿 헴 트윌 팬츠,natural,2.4,0.0,2.8,close_alternatives
+hm:1362034001,와이드 테일러드 팬츠,natural,1.0,2.0,2.8,attribute_supported
+hm:1362058004,와이드 스포츠 팬츠 SoftMove™,natural,2.4,0.0,2.8,close_alternatives
+hm:1362156001,워밍 스포츠 레깅스 ThermoMove™,wave,-0.7,2.0,2.0,close_alternatives
+hm:1362284001,Four-way Stretch 와이드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1362308001,스포츠 조거 팬츠 오버사이즈핏,straight,1.7,0.0,0.8,attribute_supported
+hm:1362339001,와이드 스포츠 조거 팬츠,natural,2.4,0.0,2.8,close_alternatives
+hm:1362358001,테일러드 부츠컷 팬츠,straight,2.4,0.8,0.8,attribute_supported
+hm:1362638001,비스코스 블렌드 플리츠 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1362728001,파인 리브드 드로스트링 팬츠,natural,0.3,2.0,2.8,attribute_supported
+hm:1362981001,시퀸 디테일 새틴 팬츠,straight,1.7,0.2,0.8,attribute_supported
+hm:1363132003,테일러드 트윌 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1363170001,니트 와이드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1363195001,와이드 테일러드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1363326001,새틴 테일러드 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1363761001,미디 플리츠 스커트,wave,1.4,2.9,0.0,attribute_supported
+hm:1363791001,레귤러 웨이스트 스트레이트 진,straight,4.4,0.0,2.2,attribute_supported
+hm:1363975001,하이웨이스트 스트레이트 진,wave,2.3,3.0,2.2,attribute_supported
+hm:1364169001,새틴 트윌 카고 팬츠,natural,2.3,2.0,4.3,attribute_supported
+hm:1364173001,슬릿 헴 트윌 팬츠,wave,0.3,3.0,0.8,attribute_supported
+hm:1364176001,배럴 조거 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1364177001,벨티드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1364195001,스트레이트 테일러드 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1364198001,풀온 저지 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1364544001,스캘럽트 디테일 코튼 팬츠,natural,2.3,2.0,3.2,attribute_supported
+hm:1364636001,벨티드 배럴 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1365173001,버튼 디테일 부츠컷 팬츠,wave,1.7,1.8,0.8,close_alternatives
+hm:1365344001,앵클 시가렛 팬츠,wave,1.5,1.8,0.0,close_alternatives
+hm:1365357001,벨티드 벨벳 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1365374002,폴드오버 웨이스트 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1365590001,배럴 카고 팬츠,natural,1.0,2.0,2.9,attribute_supported
+hm:1365646002,비스코스 팬츠 루즈핏,natural,0.3,2.0,4.2,attribute_supported
+hm:1365648001,레귤러 웨이스트 배럴 진,natural,1.7,0.0,3.6,attribute_supported
+hm:1365650001,모달 블렌드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1365664001,플리츠 디테일 드로스트링 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1365665001,고데 플리츠 스커트,wave,0.7,2.9,1.4,attribute_supported
+hm:1365735001,레귤러 웨이스트 스트레이트 진,straight,4.4,0.0,2.2,attribute_supported
+hm:1365736001,벨티드 데님 스커트,straight,1.4,0.0,0.4,attribute_supported
+hm:1365902001,슬릿 헴라인 울 팬츠,straight,3.0,0.2,1.8,attribute_supported
+hm:1365952001,코티드 와이드 팬츠,natural,2.4,0.0,2.8,close_alternatives
+hm:1366038001,벨벳 테일러드 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1366117001,하이웨이스트 배럴 진,natural,1.0,2.0,2.2,close_alternatives
+hm:1366177001,벨티드 와이드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1366203001,와이드 트윌 팬츠,natural,1.0,0.2,2.8,attribute_supported
+hm:1366334001,와이어 보닝 데님 스커트,straight,1.4,0.0,0.4,attribute_supported
+hm:1366521001,벌룬 스포츠 조거 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1367478001,레귤러 웨이스트 앵클 배럴 진,straight,2.2,0.8,1.4,attribute_supported
+hm:1367603001,드로스트링 저지 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1368002001,풀온 팬츠 루즈핏,straight,3.7,0.0,3.2,close_alternatives
+hm:1368007002,카고 팬츠,natural,1.7,1.0,1.9,close_alternatives
+hm:1368012001,스트랩 디테일 팬츠,straight,2.4,0.0,0.8,attribute_supported
+hm:1368022001,비스코스 블렌드 풀온 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1368080001,크리스 프런트 폰테 디 로마 레깅스,straight,0.7,0.0,0.0,attribute_supported
+hm:1368255001,테일러드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1368538001,레귤러 웨이스트 배럴 진,natural,2.9,1.2,3.6,close_alternatives
+hm:1368762001,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1368812002,데님 플리츠 스커트,wave,0.7,3.6,0.4,attribute_supported
+hm:1368895001,테이퍼드 테일러드 팬츠,wave,2.2,3.2,0.8,attribute_supported
+hm:1369350001,플레어 스포츠 레깅스 DryMove™ Seamless,wave,-0.7,3.0,0.0,attribute_supported
+hm:1369427001,벨티드 카고 팬츠,natural,1.7,0.0,4.3,attribute_supported
+hm:1369438001,플리츠 와이드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1369442001,코티드 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1369448001,코티드 배럴 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1369462001,풀온 팬츠 루즈핏,straight,3.7,0.0,3.2,close_alternatives
+hm:1369514001,드로스트링 패턴 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1370037001,스트레이트 코듀로이 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1370091001,벨티드 테일러드 팬츠,straight,3.6,1.2,0.8,attribute_supported
+hm:1370303001,레귤러 웨이스트 배럴 진,straight,2.4,0.0,2.2,close_alternatives
+hm:1370572001,버클 디테일 레깅스,straight,0.7,0.0,0.0,attribute_supported
+hm:1371021001,폰테 디 로마 팬츠,wave,0.3,4.0,0.8,attribute_supported
+hm:1371558001,스포츠 조거 팬츠 DryMove™,straight,3.6,1.2,0.8,attribute_supported
+hm:1371985004,크리스 레그 스쿠버 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1372084001,디자인 팬츠,straight,1.7,1.0,0.8,attribute_supported
+hm:1372085001,자카드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1372447001,슬릿 프런트 풀온 팬츠,wave,0.3,3.0,0.8,attribute_supported
+hm:1372883001,레이스 트리밍 새틴 스커트,straight,1.4,0.0,0.0,attribute_supported
+hm:1372891001,벨티드 레깅스,wave,0.7,1.0,0.0,close_alternatives
+hm:1373088001,벨티드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1373459002,레귤러 웨이스트 크롭트 부츠컷 진,wave,0.7,2.8,0.4,attribute_supported
+hm:1373916001,프릴 트리밍 플리츠 스커트,wave,1.4,2.9,0.0,attribute_supported
+hm:1373935001,러플 디테일 드로스트링 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1374630001,폴드오버 스포츠 레깅스 SoftMove™,straight,2.7,0.0,1.0,attribute_supported
+hm:1374710001,코튼 비치 쇼츠,straight,1.4,0.0,0.0,attribute_supported
+hm:1374814001,나일론 패러슈트 팬츠,natural,1.2,0.4,1.4,close_alternatives
+hm:1376312001,슬림 크리스 프런트 팬츠,straight,1.7,1.0,0.8,attribute_supported
+hm:1376603002,벨티드 폰테 디 로마 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1376823001,버튼 디테일 테일러드 팬츠,natural,1.0,2.0,2.8,attribute_supported
+hm:1377462001,스쿠버 팬츠 릴랙스핏,straight,3.7,0.0,3.2,close_alternatives
+hm:1377525001,드로스트링 저지 팬츠,natural,3.0,-0.8,3.2,close_alternatives
+hm:1377639001,크리스 프런트 팬츠 릴랙스핏,straight,3.7,0.0,3.2,close_alternatives
+hm:1378246001,스쿠버 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1379065001,하이웨이스트 플레어 진,wave,0.3,4.0,1.2,attribute_supported
+hm:1379091001,스쿠버 배럴 트랙 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1381256001,울 블렌드 미니 스코트,straight,1.4,0.0,0.0,attribute_supported
+hm:1383421001,케이블 니트 풀온 팬츠,straight,4.4,0.0,1.8,attribute_supported
+hm:1385590001,카고 스웨트 팬츠,natural,3.7,0.0,4.3,close_alternatives
+hm:0932722095,코튼 블렌드 스웨트 팬츠,straight,2.4,0.0,0.8,attribute_supported
+hm:0932722098,코튼 블렌드 스웨트 팬츠,straight,2.4,0.0,0.8,attribute_supported
+hm:0932722133,코튼 블렌드 스웨트 팬츠,straight,2.4,0.0,0.8,attribute_supported
+hm:0932722134,코튼 블렌드 스웨트 팬츠,straight,2.4,0.0,0.8,attribute_supported
+hm:0932722135,코튼 블렌드 스웨트 팬츠,straight,2.4,0.0,0.8,attribute_supported
+hm:0941666090,하이웨이스트 앵클 맘 진 슬림핏,wave,2.1,3.8,1.4,attribute_supported
+hm:0941666098,하이웨이스트 앵클 맘 진 슬림핏,wave,2.1,3.8,1.4,attribute_supported
+hm:1045459083,하이웨이스트 와이드 진,natural,1.0,2.0,3.2,attribute_supported
+hm:1045459094,하이웨이스트 와이드 진,natural,0.0,2.0,2.4,close_alternatives
+hm:1193602020,스웨트 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1193602073,스웨트 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1193602080,스웨트 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1193602081,스웨트 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1193602093,스웨트 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1209534024,하이웨이스트 스트레이트 진,straight,2.0,2.0,1.4,close_alternatives
+hm:1229229026,코튼 블렌드 팬츠,natural,1.0,-0.8,4.2,attribute_supported
+hm:1237735017,스포츠 레깅스 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1237735019,스포츠 레깅스 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1237735040,스포츠 레깅스 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1237735043,스포츠 레깅스 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1237735046,스포츠 레깅스 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1237735049,스포츠 레깅스 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1237735051,스포츠 레깅스 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1290715005,시가렛 팬츠,straight,2.6,1.2,0.0,attribute_supported
+hm:1290715006,시가렛 팬츠,straight,2.6,1.2,0.0,attribute_supported
+hm:1290715009,시가렛 팬츠,straight,2.6,1.2,0.0,attribute_supported
+hm:1291296004,스포츠 사이클링 쇼츠 SoftMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1295947003,시가렛 팬츠,wave,1.9,2.2,0.0,close_alternatives
+hm:1295947017,시가렛 팬츠,wave,1.9,2.2,0.0,close_alternatives
+hm:1295947018,시가렛 팬츠,wave,1.9,2.2,0.0,close_alternatives
+hm:1295947020,시가렛 팬츠,wave,1.9,2.2,0.0,close_alternatives
+hm:1295947021,시가렛 팬츠,wave,1.9,2.2,0.0,close_alternatives
+hm:1296717024,리브드 드로스트링 팬츠,natural,1.7,0.0,2.2,close_alternatives
+hm:1296717028,리브드 드로스트링 팬츠,natural,1.7,0.0,2.2,close_alternatives
+hm:1303187006,워밍 스포츠 레깅스 Fleece SoftMove™,wave,-0.7,2.0,2.0,close_alternatives
+hm:1303187007,워밍 스포츠 레깅스 Fleece SoftMove™,wave,-0.7,2.0,2.0,close_alternatives
+hm:1303482004,Four-way Stretch 와이드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1303482005,Four-way Stretch 와이드 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1315211007,랩 스코트,wave,0.7,1.0,0.0,close_alternatives
+hm:1315511005,스포츠 레깅스 DryMove™ Seamless,wave,-0.7,2.0,2.0,close_alternatives
+hm:1315511007,스포츠 레깅스 DryMove™ Seamless,wave,-0.7,2.0,2.0,close_alternatives
+hm:1315513003,하이웨이스트 레깅스 SculptMove™,wave,-0.7,2.0,0.0,attribute_supported
+hm:1315513009,하이웨이스트 레깅스 SculptMove™,wave,-0.7,2.0,0.0,attribute_supported
+hm:1315513010,하이웨이스트 레깅스 SculptMove™,wave,-0.7,2.0,0.0,attribute_supported
+hm:1315513014,하이웨이스트 레깅스 SculptMove™,wave,-0.7,2.0,0.0,attribute_supported
+hm:1315513015,하이웨이스트 레깅스 SculptMove™,wave,-0.7,2.0,0.0,attribute_supported
+hm:1317132007,플레어 스포츠 레깅스 SculptMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1317132009,플레어 스포츠 레깅스 SculptMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1317132010,플레어 스포츠 레깅스 SculptMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1318398021,플레어 요가 레깅스 SoftMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1318398022,플레어 요가 레깅스 SoftMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1318398028,플레어 요가 레깅스 SoftMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1318398054,플레어 요가 레깅스 SoftMove™,wave,-0.7,3.0,0.0,attribute_supported
+hm:1318831006,와이드 테일러드 팬츠,wave,-0.7,2.0,2.0,close_alternatives
+hm:1318831007,와이드 테일러드 팬츠,wave,-0.7,2.0,2.0,close_alternatives
+hm:1321672003,쿨링 와이드 팬츠 릴랙스핏,natural,1.7,0.0,4.2,attribute_supported
+hm:1324167006,플리츠 디테일 드로스트링 팬츠,natural,1.0,0.0,4.2,attribute_supported
+hm:1324167007,플리츠 디테일 드로스트링 팬츠,natural,1.0,0.0,4.2,attribute_supported
+hm:1328713005,와이드 테일러드 팬츠,natural,0.0,0.0,3.4,attribute_supported
+hm:1331278007,쇼트 러닝 쇼츠 DryMove™,straight,1.4,0.0,0.0,attribute_supported
+hm:1332879004,로라이즈 배기 진,natural,1.0,-0.8,4.1,attribute_supported
+hm:1336299002,데님 쇼츠,straight,1.4,0.0,0.4,attribute_supported
+hm:1336389002,테일러드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1336389003,테일러드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1336389007,테일러드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1336825002,플리츠 벨티드 팬츠,straight,3.0,2.0,1.8,attribute_supported
+hm:1336845004,하이웨이스트 스트레이트 진,straight,3.0,2.0,2.2,attribute_supported
+hm:1336845005,하이웨이스트 스트레이트 진,straight,3.0,2.0,2.2,attribute_supported
+hm:1336846002,비스코스 블렌드 크링클 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1336846004,비스코스 블렌드 크링클 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1337538003,레귤러 웨이스트 배럴 진,natural,2.4,0.0,3.7,attribute_supported
+hm:1338363003,리넨 블렌드 배럴 팬츠,natural,0.3,2.0,3.6,attribute_supported
+hm:1338942002,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1340398008,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1340398009,와이드 테일러드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1340654003,리넨 블렌드 벌룬 팬츠,natural,0.3,2.0,4.1,attribute_supported
+hm:1340949002,버클 디테일 스코트,wave,0.0,3.5,0.0,attribute_supported
+hm:1341917002,스포츠 바이커 쇼츠 SculptMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1341917003,스포츠 바이커 쇼츠 SculptMove™,wave,-0.7,3.0,2.0,attribute_supported
+hm:1342781004,테일러드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1343397003,벨티드 스트레이트 팬츠,natural,1.3,2.0,2.4,close_alternatives
+hm:1343397004,벨티드 스트레이트 팬츠,natural,1.3,2.0,2.4,close_alternatives
+hm:1343397005,벨티드 스트레이트 팬츠,natural,1.3,2.0,2.4,close_alternatives
+hm:1343858002,드레이프 풀온 팬츠,natural,1.7,0.0,4.2,attribute_supported
+hm:1343910002,비스코스 블렌드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1343910003,비스코스 블렌드 배럴 팬츠,straight,2.4,0.0,1.8,close_alternatives
+hm:1345513002,새틴 슬립 스커트,wave,-0.7,3.0,0.0,attribute_supported
+hm:1345513003,새틴 슬립 스커트,wave,-0.7,3.0,0.0,attribute_supported
+hm:1346409002,테일러드 리넨 팬츠,straight,3.0,2.0,2.2,attribute_supported
+hm:1346654006,하이웨이스트 맘 진 슬림핏,wave,3.5,4.2,2.2,attribute_supported
+hm:1346999002,플리츠 와이드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1347083002,테일러드 트윌 팬츠,wave,1.0,3.0,0.8,attribute_supported
+hm:1347149002,벨티드 벌룬 레그 팬츠,straight,2.4,0.0,2.3,close_alternatives
+hm:1347198005,레귤러 웨이스트 스트레이트 진,straight,4.4,0.0,2.2,attribute_supported
+hm:1347674006,테일러드 트윌 팬츠,wave,1.0,2.0,0.8,attribute_supported
+hm:1347674007,테일러드 트윌 팬츠,wave,1.0,2.0,0.8,attribute_supported
+hm:1348142007,레귤러 웨이스트 배럴 진,straight,2.4,0.0,2.2,close_alternatives
+hm:1348172004,테일러드 배럴 팬츠,natural,-0.7,2.0,2.4,close_alternatives
+hm:1348172005,테일러드 배럴 팬츠,natural,0.3,2.0,3.2,attribute_supported
+hm:1348173002,코튼 배럴 팬츠,wave,1.0,2.0,1.8,close_alternatives
+hm:1348174002,스트레이트 테일러드 팬츠,natural,2.3,2.0,3.2,attribute_supported
+hm:1348177010,테일러드 트윌 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1348177011,테일러드 트윌 팬츠,straight,3.7,0.0,3.2,close_alternatives
+hm:1348415004,하이웨이스트 스커트,wave,0.0,2.0,0.0,attribute_supported
+hm:1348970003,크링클 와이드 팬츠,natural,0.3,2.0,4.2,attribute_supported
+hm:1349219002,스키 팬츠 ThermoMove™,wave,0.3,4.0,0.8,attribute_supported
+hm:1349263002,배럴 스키 팬츠 StormMove™,natural,0.0,0.0,1.6,attribute_supported
+hm:1349315002,버클 디테일 벌룬 팬츠,natural,1.7,0.0,3.7,attribute_supported
+hm:1349388002,스트레이트 팬츠 Four-way Stretch,straight,4.4,0.0,1.8,attribute_supported
+hm:1350291006,코듀로이 배럴 팬츠,wave,2.2,3.2,1.8,attribute_supported
+hm:1350351002,테일러드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1350351003,테일러드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported
+hm:1350351007,테일러드 배럴 팬츠,natural,1.7,0.0,3.2,attribute_supported

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta name="atlas-data-mode" content="static">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5ef"><title>FIT ATLAS — H&M 하의 온톨로지 맵</title>
+  <meta name="description" content="체형, 의류 속성, 상품의 관계를 탐색하는 온톨로지 기반 스타일 추천 맵">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css"><script src="./app.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="./" aria-label="FIT ATLAS 홈"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="m12 12 17 7-12 12M12 12l5 19"/><circle cx="12" cy="12" r="5"/><circle cx="29" cy="19" r="4"/><circle cx="17" cy="31" r="4"/></svg><span>fit atlas<span class="brand-caption">BOTTOMS, CONNECTED.</span></span></a>
+  <nav aria-label="주 메뉴"><button class="nav-item active" id="map-nav">스타일 맵<span class="tiny-dot"></span></button><button class="nav-item" id="classification-open">분류 결과 <span class="new-pill" id="classification-badge">500</span></button></nav>
+  <div class="header-right"><span class="live-label"><i></i> ONTOLOGY EXPLORER</span><button id="about-open" class="icon-button" aria-label="추천 방식 안내">?</button></div>
+</header>
+<main>
+  <section class="intro"><div><p class="eyebrow">A MORE THOUGHTFUL WAY TO FIND YOUR FIT</p><h1>어울림의 이유를, <span>연결로 발견하세요.</span></h1><p class="intro-description">나의 체형에서 밑위와 실루엣으로, 속성에서 한 벌의 하의로. 연결을 따라 나에게 가까운 스타일을 찾아보세요.</p></div><div class="collection-stat"><strong id="total-products">—</strong><span>개의 하의<br>하나의 스타일 지식 맵</span></div></section>
+  <div id="loading" class="loading">스타일의 연결을 불러오고 있어요<span></span></div><div id="load-error" class="load-error" role="alert" hidden></div>
+  <div class="workspace" id="workspace" hidden>
+    <aside class="filters" aria-label="체형과 선호 설정">
+      <div class="section-label"><span>01</span> 나의 체형</div><div id="body-options" class="body-options" role="group" aria-label="체형 선택"></div>
+      <p class="help-text">체형을 누르면 연결된 속성과<br class="desktop-only"> 상품이 맵에 펼쳐져요.</p>
+      <div class="filter-divider"></div><div class="section-label"><span>02</span> 원하는 스타일 <button id="reset-filters" class="reset-link">초기화</button></div>
+      <div class="preference-fields">
+        <label>데이터 컬렉션<select id="retailer"><option value="hm">H&M 여성 하의 · 500개</option></select></label>
+        <label>허리 위치<select id="rise"><option value="any">밑위 상관없음</option></select></label>
+        <label>의류 종류<select id="garment"><option value="any">하의 전체</option></select></label>
+        <label>실루엣<select id="silhouette"><option value="any">모든 실루엣</option></select></label>
+        <label>기장<select id="length"><option value="any">모든 기장</option></select></label>
+        <label>계절<select id="season"><option value="any">모든 계절</option></select></label>
+      </div>
+      <label class="check-label" id="additional-filter" hidden><input id="additional-only" type="checkbox"><span id="additional-label"></span></label>
+      <label class="check-label"><input id="image-only" type="checkbox" checked><span>사진이 있는 상품만</span></label>
+      <label class="check-label"><input id="season-hints" type="checkbox" checked><span>설명 기반 계절 추정 포함</span></label>
+      <p class="filter-note">선호 조건에 맞는 상품 안에서<br>가까운 체형과 연결 근거를 비교해요.</p>
+      <div class="sidebar-bottom"><div class="small-mark">↳</div><p>하나의 정답보다,<br><strong>설명할 수 있는 추천.</strong></p><a href="./exports/ontology.nt" download="fit-atlas-ontology.nt">온톨로지 데이터 받기 <span>↗</span></a></div>
+    </aside>
+    <section class="map-panel" aria-label="체형·속성·상품 관계 그래프">
+      <div class="map-toolbar"><div><span class="map-title">스타일 지식 맵</span><span class="map-type-badge">KNOWLEDGE GRAPH</span></div><button id="overview-toggle" class="text-control" aria-pressed="false"><svg viewBox="0 0 18 18" aria-hidden="true"><circle cx="4" cy="5" r="2"/><circle cx="14" cy="5" r="2"/><circle cx="9" cy="14" r="2"/><path d="m5 6 3 6m5-6-3 6M6 5h6"/></svg>전체 맵</button></div>
+      <div class="map-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="m12 12 5 5"/></svg><input id="search" type="search" placeholder="상품명, 브랜드 또는 속성 검색" aria-label="상품명 브랜드 속성 검색"><kbd>/</kbd></div>
+      <div class="map-stage" id="map-stage"><svg id="map" viewBox="0 0 920 720" role="group" aria-label="노드를 누르면 연결된 상품과 추천 근거를 탐색할 수 있습니다"><defs><filter id="node-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#1d3f2e" flood-opacity=".09"/></filter></defs><g id="viewport"><g id="edge-layer"></g><g id="node-layer"></g></g></svg><div id="map-tooltip" class="map-tooltip" hidden></div><div id="map-empty" class="map-empty" hidden><span>∅</span><h3>이 조건의 연결은 아직 없어요</h3><p>밑위·실루엣 조건을 바꾸거나 다른 체형을 선택해보세요.</p><button id="empty-reset">선호 조건 초기화</button></div></div>
+      <div class="map-caption"><div id="active-path" class="active-path"><span>체형</span><i>→</i><span>스타일 속성</span><i>←</i><span>상품</span></div><span id="visible-count"></span></div>
+      <div class="map-bottom"><div class="legend"><span><i class="legend-body"></i>체형</span><span><i class="legend-attribute"></i>의류 속성</span><span><i class="legend-product"></i>상품</span><span class="hint-legend">점선은 추정 단서</span></div><div class="zoom-controls"><button id="zoom-out" aria-label="그래프 축소">−</button><button id="zoom-reset" aria-label="그래프 위치와 확대 비율 초기화">⌖</button><button id="zoom-in" aria-label="그래프 확대">+</button></div></div>
+      <div id="selected-attribute" class="selected-attribute" hidden><span></span><button aria-label="선택한 속성 해제">×</button></div>
+    </section>
+    <aside class="results-panel" aria-label="추천 상품과 연결 근거"><div id="recommendation-panel"><p class="eyebrow">FOLLOW YOUR CONNECTIONS</p><div class="results-heading"><h2>나에게 이어지는 <em>Top 5</em></h2><span id="candidate-count"></span></div><p id="results-subtitle" class="results-subtitle"></p><ol id="results" class="results"></ol><div id="results-empty" class="results-empty" hidden>조건에 맞는 상품이 없어요.<br>필터를 조정하면 새로운 연결이 나타나요.</div><p id="shortage" class="shortage" hidden></p><div class="explanation-tip"><span>↗</span><p>상품을 눌러보세요.<br><strong>어떤 속성으로 연결됐는지</strong> 보여드릴게요.</p></div></div><div id="detail-panel" hidden></div></aside>
+  </div>
+  <footer><p>체형 <span>→</span> 스타일 가설 <span>→</span> 의류 속성 <span>←</span> 수집 상품</p><span>가까운 스타일을 제안하는 연구 시제품 · 점수는 실제 적합도 확률이 아닙니다.</span></footer>
+</main>
+<dialog id="classification-modal" class="classification-modal"><div class="dialog-header"><div><p class="eyebrow" id="classification-eyebrow">COLLECTION / H&M BOTTOMS</p><h2 id="classification-title">500벌을 세 가지 스타일로.</h2></div><button class="dialog-close" aria-label="분류 결과 닫기">×</button></div><p class="dialog-description">확인된 의류 속성과 보완 단서를 비교해 가장 가까운 체형으로 나눴어요. 단서가 부족해도 후보를 버리지 않고, 보조값을 사용한 분류는 따로 표시합니다.</p><div id="classification-counts" class="classification-counts"></div><div class="classification-actions"><span>상품을 누르면 맵에서 연결 근거를 확인할 수 있어요.</span><a id="classification-csv" href="./exports/classifications.csv" download="hm-bottoms-body-classifications.csv">분류표 다운로드 ↗</a></div><div class="classification-table-wrap"><table><thead><tr><th>상품</th><th>가까운 체형</th><th>분류 단서</th></tr></thead><tbody id="classification-table"></tbody></table></div></dialog>
+<dialog id="about-modal" class="about-modal"><button class="dialog-close" aria-label="안내 닫기">×</button><p class="eyebrow">BEHIND THE CONNECTION</p><h2>추천의 이유까지<br>함께 연결합니다.</h2><div class="about-chain"><span>체형</span>→<span>규칙</span>→<span>속성</span>←<span>상품</span></div><p>하의 상품명·상세 설명·의류 분류에서 확인한 속성을 지식 그래프에 연결합니다. 체형과 속성 사이의 스타일 가설을 따라 추천 이유를 찾아볼 수 있어요.</p><p>상품의 실제 문구에서 확인한 밑위·핏·기장·바지 및 스커트 형태를 연결하며, 이미지 설명으로 의류 속성을 채우지 않습니다. 모든 상품은 가장 가까운 스타일 체형 한 곳에 우선 분류되며, 여러 체형과의 점수도 함께 보존해요.</p><p class="about-note">스트레이트·웨이브·내추럴 관계는 검증 전 스타일 가설입니다. 사람 사진의 체형을 판정하거나 착용 적합도를 실험으로 확정한 서비스는 아닙니다.</p><a href="./exports/ontology.nt" download>관계 데이터 살펴보기 ↗</a></dialog>
+</body></html>
